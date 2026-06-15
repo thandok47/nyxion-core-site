@@ -1,0 +1,50 @@
+{
+  "password_policy": {
+    "rules": [
+      "Minimum length: 12 characters",
+      "Must include uppercase, lowercase, numbers, and symbols",
+      "Rotate passwords every 90 days",
+      "Prevent reuse of last 5 passwords",
+      "Store only hashed and salted credentials"
+    ]
+  },
+  "mfa_policy": {
+    "rules": [
+      "Mandatory MFA for all admin and developer accounts",
+      "Support TOTP apps (Google Authenticator, Authy)",
+      "Enforce MFA for remote access and privileged actions"
+    ]
+  },
+  "access_control_policy": {
+    "rules": [
+      "Role-based access defined in roles.json",
+      "Principle of least privilege enforced",
+      "Quarterly access reviews to remove stale accounts",
+      "Immediate revocation of access upon termination"
+    ]
+  },
+  "logging_monitoring_policy": {
+    "rules": [
+      "Centralized logging of system events",
+      "Retain logs for minimum 12 months",
+      "Automated alerts for anomalies (failed logins, privilege escalation)",
+      "Regular review of logs by security analysts"
+    ]
+  },
+  "patch_management_policy": {
+    "rules": [
+      "Monthly patch cycle for OS and dependencies",
+      "Emergency patching within 48 hours of critical CVEs",
+      "Document all updates in patches.json",
+      "Test functionality post-update before production rollout"
+    ]
+  },
+  "data_protection_policy": {
+    "rules": [
+      "Encrypt sensitive data at rest (AES-256)",
+      "Enforce TLS 1.3 for data in transit",
+      "Regular backups stored securely offsite",
+      "Compliance with GDPR, POPIA, ISO27001"
+    ]
+  }
+}

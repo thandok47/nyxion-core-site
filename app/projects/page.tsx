@@ -1,3 +1,5 @@
+import playbooks from "../playbooks.json"
+
 export default function Projects() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-black via-gray-900 to-black text-white px-6 py-16">

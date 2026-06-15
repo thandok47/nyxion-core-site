@@ -1,0 +1,50 @@
+{
+  "incident_response": {
+    "steps": [
+      "Detect anomaly in logs or monitoring tools",
+      "Classify severity (low, medium, critical)",
+      "Escalate to Admin/security lead",
+      "Contain affected systems (isolate network, disable compromised accounts)",
+      "Remediate vulnerabilities (patch, reconfigure)",
+      "Recover operations from backups",
+      "Document actions in logs and notify stakeholders"
+    ]
+  },
+  "access_review": {
+    "steps": [
+      "Quarterly review of users.json and roles.json",
+      "Identify stale or inactive accounts",
+      "Remove or disable unused accounts",
+      "Rotate credentials and enforce MFA",
+      "Document review outcomes and update audit logs"
+    ]
+  },
+  "data_breach": {
+    "steps": [
+      "Contain breach immediately (firewall rules, account lockouts)",
+      "Notify Admin and stakeholders",
+      "Conduct forensic analysis (logs, system snapshots)",
+      "Patch vulnerabilities and strengthen controls",
+      "Recover systems from backups",
+      "Report compliance obligations (GDPR, POPIA, ISO)"
+    ]
+  },
+  "patch_management": {
+    "steps": [
+      "Identify outdated dependencies (requirements.txt, OS packages)",
+      "Apply security patches",
+      "Test system functionality post-update",
+      "Document changes and update logs",
+      "Schedule next patch cycle"
+    ]
+  },
+  "business_continuity": {
+    "steps": [
+      "Backup critical data regularly",
+      "Test restore procedures quarterly",
+      "Maintain uptime during disruptions (fallback systems)",
+      "Switch to redundant infrastructure if needed",
+      "Review continuity plan annually"
+    ]
+  }
+}
