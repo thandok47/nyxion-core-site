@@ -1,4 +1,4 @@
-import playbooks from "../../playbooks.json"
+import playbooks from "../../../playbooks.json"
 
 export default function Playbooks() {
   return (

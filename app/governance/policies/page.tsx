@@ -1,4 +1,4 @@
-import policies from "../../policies.json"
+import policies from "../../../policies.json"
 
 export default function Policies() {
   return (
